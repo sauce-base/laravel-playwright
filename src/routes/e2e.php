@@ -3,7 +3,7 @@
 use Saucebase\LaravelPlaywright\Http\Middleware\VerifyPlaywrightSecret;
 use Saucebase\LaravelPlaywright\Services\Config as LaravelPlaywrightConfig;
 use Illuminate\Support\Facades\Route;
-use Saucebase\LaravelPlaywright\Controller;
+use Saucebase\LaravelPlaywright\Http\Controllers\Controller;
 
 
 Route::prefix(LaravelPlaywrightConfig::prefix())

@@ -1,9 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Saucebase\LaravelPlaywright;
+namespace Saucebase\LaravelPlaywright\Http\Controllers;
 
 use Carbon\Carbon;
 use Saucebase\LaravelPlaywright\Services\DynamicConfig;
+use Saucebase\LaravelPlaywright\Services\Truncate;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\JsonResponse;
@@ -41,7 +42,7 @@ class Controller
         /** @var array<string|null> $connections */
         $connections = $request->input('connections') ?? [null];
 
-        $truncate = new Services\Truncate();
+        $truncate = new Truncate();
         $truncate->truncate($connections);
 
         return Response::json();

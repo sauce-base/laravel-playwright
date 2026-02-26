@@ -6,7 +6,7 @@ composer.lock
 /node_modules/
 
 # Build artifacts (dist is committed for vendor import)
-# playwright/dist is intentionally tracked
+# /dist is intentionally tracked
 
 # Editor directories
 .vscode/*

@@ -1,4 +1,4 @@
-# Laravel Playwright [WORK IN PROGRESS]
+# Laravel Playwright
 
 
 This repository contains a Laravel and a Playwright library to help you write E2E tests for your Laravel application using [Playwright](https://playwright.dev/). It adds a set of endpoints to your Laravel application to allow Playwright to interact with it. You can do the following from your Playwright tests:
@@ -56,6 +56,10 @@ return [
     'secret' => env('PLAYWRIGHT_SECRET', null),
 ];
 ```
+
+## 💡 Example
+
+If you need a good and more complex example of a repository using this package, look at https://github.com/saucebase-dev/saucebase
 
 ## 🎭 Playwright Config
 
@@ -283,4 +287,4 @@ test('checkout with fake payment gateway', async ({ laravel, page }) => {
 
 ## 🙏 Credits
 
-This package is a fork of [hyvor/laravel-playwright](https://github.com/hyvor/laravel-playwright) by [Hyvor](https://hyvor.com).
+This package was inspired by [hyvor/laravel-playwright](https://github.com/hyvor/laravel-playwright)

@@ -5,7 +5,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Git
 
 - Commit messages must be a single line — no body, no bullet points
-- No `Co-Authored-By` or AI attribution lines in commits
+- No `Co-Authored-By` or AI attribution lines in commits — the commit author is the human user, even if an AI assistant contributed to the code
+- Commits should use conventional commit style, e.g. `feat: add time travel endpoint` or `fix: handle missing sqlite_sequence table`
 
 ## Commands
 

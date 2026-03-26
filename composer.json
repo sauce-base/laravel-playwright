@@ -4,10 +4,10 @@
     "keywords": ["laravel", "playwright", "e2e", "testing", "end-to-end", "factory", "artisan", "integration-testing"],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/sauce-base/laravel-playwright",
+    "homepage": "https://github.com/saucebase-dev/laravel-playwright",
     "support": {
-        "issues": "https://github.com/sauce-base/laravel-playwright/issues",
-        "source": "https://github.com/sauce-base/laravel-playwright"
+        "issues": "https://github.com/saucebase-dev/laravel-playwright/issues",
+        "source": "https://github.com/saucebase-dev/laravel-playwright"
     },
     "autoload": {
         "psr-4": {
